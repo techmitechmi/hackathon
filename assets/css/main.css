@@ -2904,7 +2904,7 @@
 			}
 
 				#header.alt nav a {
-					color: #ddd;
+					color: #333;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
@@ -3093,7 +3093,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("../../images/back1.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3282,3 +3282,8 @@
 	min-height: 25%;
 }
 
+.smart-logo {
+	
+	padding: 30px ;
+	padding-top: 30px ;
+}
