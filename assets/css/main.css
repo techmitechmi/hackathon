@@ -3123,6 +3123,7 @@
 
 			#banner {
 				padding: 14em 0 11em 0;
+				height: 750px;
 			}
 
 				#banner h2 {
@@ -3135,6 +3136,7 @@
 
 			#banner {
 				padding: 9em 0 7em 0;
+				height: 480px;
 			}
 
 		}
@@ -3143,6 +3145,7 @@
 
 			#banner {
 				padding: 6em 2em 6em 2em;
+				height: 350px;
 			}
 
 				#banner br {
@@ -3163,6 +3166,7 @@
 
 			#banner {
 				padding: 4em 2em 4em 2em;
+				height: 350px;
 			}
 
 		}
@@ -3281,6 +3285,8 @@
 	max-height: 100%;
 	min-height: 25%;
 }
+
+
 
 .smart-logo {
 
