@@ -2739,9 +2739,15 @@
 			background-color: #f6f6f6;
 		}
 
+		
+
+		
+
 		.wrapper.style3 {
+			object-fit: contain;
+
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("https://media.giphy.com/media/mikgpXCTq3twA/giphy-downsized.gif");
+			background-image: url("images/overlay.png"), url("https://media.giphy.com/media/l0HlwdoVlUfDBV8ac/giphy-downsized.gif");
 			background-position: center center;
 			background-size: contain;
 
@@ -3290,8 +3296,14 @@
 	min-height: 25%;
 }
 
-.smart-logo {
+.wrapper.style5 {
 
-	padding: 30px ;
-	padding-top: 30px ;
-}
+
+
+	object-fit: contain;
+			background-attachment: fixed;
+			background-image: url("images/overlay.png"), url("https://media.giphy.com/media/l0HlwdoVlUfDBV8ac/giphy-downsized.gif");
+			background-position: center center;
+			background-size: contain;
+
+		}
