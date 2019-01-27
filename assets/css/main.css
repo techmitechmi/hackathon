@@ -905,6 +905,7 @@
 
 		.row > * {
 			padding: 0 0 0 1.5em;
+			float: inherit;
 		}
 
 		.row {
@@ -1120,6 +1121,7 @@
 
 		.row > * {
 			padding: 0 0 0 1.25em;
+			float: inherit;
 		}
 
 		.row {
@@ -1334,6 +1336,7 @@
 	@media screen and (max-width: 480px) {
 
 		.row > * {
+			float: inherit;
 			padding: 0 0 0 1.25em;
 		}
 
@@ -2738,9 +2741,10 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("https://media.giphy.com/media/mikgpXCTq3twA/giphy-downsized.gif");
 			background-position: center center;
-			background-size: cover;
+			background-size: contain;
+
 		}
 
 			.wrapper.style3 header.major {
