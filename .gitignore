@@ -1,0 +1,17 @@
+.Python
+bin
+include
+lib
+lib64
+local
+scripts
+share
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+instance/
+config.cfg
+__pycache__*
+\.vscode/
+env
+win.txt
