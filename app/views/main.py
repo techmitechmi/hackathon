@@ -45,7 +45,7 @@ def register():
 
 
             if len(rolls) > len(set(rolls)):
-                print("Duplicate Entries not allowed!")
+                flash("Duplicate Entries not allowed!", "danger")
                 return redirect(url_for("main.register"))
 
             student_check = []
@@ -54,7 +54,7 @@ def register():
 
             for check in student_check:
                 if check is not None:
-                    print("Some students already registered!")
+                    flash("Some students already registered!", "danger")
                     return redirect(url_for("main.register"))
 
             execute_db("INSERT INTO teams(team_name, s1_roll, s2_roll, s3_roll, s4_roll, s1_name, s2_name, s3_name, s4_name, s1_year, s2_year, s3_year, s4_year) Values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",(
